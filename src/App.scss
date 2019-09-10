@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: none;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: #f3f5f8;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
